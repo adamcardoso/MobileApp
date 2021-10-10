@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "99709177742",
+    "project_id": "mobileapp-7a870",
+    "storage_bucket": "mobileapp-7a870.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99709177742:android:9c3249a13698c4cd145edf",
+        "android_client_info": {
+          "package_name": "com.cursoandroid.mobileappnovo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99709177742-qhm1jlbrh6k46knr26hnif3vegt876cg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvqfDP8fnkoEudtafmhP2uMd2BrNc3c8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99709177742-qhm1jlbrh6k46knr26hnif3vegt876cg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
