@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class FormLogin extends AppCompatActivity {
 
     private EditText edit_user_email;
@@ -19,6 +21,7 @@ public class FormLogin extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_form_login);
+
         inicializaComponentes();
         eventoCadastrar();
         eventoRedefinir();
@@ -34,9 +37,10 @@ public class FormLogin extends AppCompatActivity {
 
     private void eventoCadastrar(){
         btn_sign_up.setOnClickListener(view -> {
-            Intent intent = new Intent(FormLogin.this, FormRegister.class);
+            Intent intent = new Intent(
+                    getApplicationContext(),
+                    FormRegister.class);
             startActivity(intent);
-            finish();
         });
     }
 

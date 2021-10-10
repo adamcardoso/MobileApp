@@ -23,109 +23,33 @@
         android:src="@drawable/tela_login"
         app:layout_constraintBottom_toBottomOf="@+id/view2"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.533"
         tools:layout_editor_absoluteX="0dp"></ImageView>
+
 
     <TextView
         android:id="@+id/textInformacao"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="220dp"
+        android:layout_marginTop="264dp"
         android:layout_marginEnd="32dp"
         android:text="Forneça as informações abaixo:"
         android:textColor="@color/grey"
+        app:layout_constraintBottom_toTopOf="@+id/edit_add_email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/view2" />
-
-
-    <EditText
-        android:id="@+id/edit_add_name"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
-        android:background="@drawable/bg_edittext_normal"
-        android:hint="@string/nome_completo"
-        android:inputType="text"
-        android:paddingStart="18dp"
-        android:paddingEnd="18dp"
-        android:textColor="@color/bluffing"
-        android:textColorHint="@color/grey"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInformacao"></EditText>
-
-    <EditText
-        android:id="@+id/edit_add_email"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="16dp"
-        android:autofillHints="emailAddress"
-        android:background="@drawable/bg_edittext_normal"
-        android:hint="@string/email"
-        android:inputType="text"
-        android:paddingStart="18dp"
-        android:paddingEnd="18dp"
-        android:textColor="@color/bluffing"
-        android:textColorHint="@color/grey"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_add_name"></EditText>
-
-    <EditText
-        android:id="@+id/edit_add_user"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="16dp"
-        android:autofillHints="emailAddress"
-        android:background="@drawable/bg_edittext_normal"
-        android:hint="@string/usuario"
-        android:inputType="text"
-        android:paddingStart="18dp"
-        android:paddingEnd="18dp"
-        android:textColor="@color/bluffing"
-        android:textColorHint="@color/grey"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_add_email"></EditText>
-
-    <EditText
-        android:id="@+id/edit_text_telefone"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
-        android:autofillHints="emailAddress"
-        android:background="@drawable/bg_edittext_normal"
-        android:hint="@string/telefone"
-        android:inputType="text"
-        android:paddingStart="18dp"
-        android:paddingEnd="18dp"
-        android:textColor="@color/bluffing"
-        android:textColorHint="@color/grey"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_add_user"></EditText>
+        app:layout_constraintTop_toTopOf="@+id/view2"
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
         android:id="@+id/edit_add_password"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="4dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginBottom="50dp"
         android:background="@drawable/bg_edittext_normal"
         android:hint="@string/password"
         android:imeOptions="actionDone"
@@ -135,17 +59,16 @@
         android:paddingEnd="18dp"
         android:textColor="@color/bluffing"
         android:textColorHint="@color/grey"
+        app:layout_constraintBottom_toTopOf="@+id/btn_registrar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_text_telefone"></EditText>
+        app:layout_constraintStart_toStartOf="parent"></EditText>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_sign_up_2"
+        android:id="@+id/btn_registrar"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="24dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="24dp"
         android:background="@drawable/bg_button_normal"
@@ -156,21 +79,34 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/btn_voltar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_add_password"
         tools:ignore="MissingConstraints"></androidx.appcompat.widget.AppCompatButton>
 
     <Button
         android:id="@+id/btn_voltar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="52dp"
         android:backgroundTint="@color/white"
         android:text="Voltar"
         android:textColor="@color/grey"
         app:layout_constraintBottom_toBottomOf="@+id/view2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_add_email"
+        android:layout_width="377dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/grey"
+        android:textColorHint="@color/grey"
+        app:layout_constraintBottom_toTopOf="@+id/edit_add_password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="email" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
