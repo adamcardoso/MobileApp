@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MobileAppNovo</string>
+    <string name="splasScreen">Splash_Screen</string>
+    <string name="tela_de_login">Tela de Login</string>
+    <string name="you_deserve_it">Você merece o melhor!</string>
+    <string name="email_or_username">Usuário ou e-mail</string>
+    <string name="password">Senha</string>
+    <string name="logar">Entrar</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="forgot_password">Esqueceu a senha?</string>
+    <string name="user">user_key</string>
+    <string name="key_password">password_key</string>
+    <string name="cadastro">Cadastar</string>
+    <string name="nome_completo">Nome Completo</string>
+    <string name="email">Email</string>
+    <string name="usuario">Usuário</string>
+    <string name="telefone">Telefone</string>
+</resources>
