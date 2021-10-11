@@ -7,12 +7,20 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:99709177742:android:9c3249a13698c4cd145edf",
+        "mobilesdk_app_id": "1:99709177742:android:fd4f4185b14ae3be145edf",
         "android_client_info": {
           "package_name": "com.cursoandroid.mobileappnovo"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "99709177742-d5i40galc2afk23i3qqub897n8f5ef9h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cursoandroid.mobileappnovo",
+            "certificate_hash": "699494391e963f9362001cf0db058e8545bd5a91"
+          }
+        },
         {
           "client_id": "99709177742-qhm1jlbrh6k46knr26hnif3vegt876cg.apps.googleusercontent.com",
           "client_type": 3
