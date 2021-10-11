@@ -36,6 +36,7 @@
         android:layout_marginEnd="32dp"
         android:text="Forneça as informações abaixo:"
         android:textColor="@color/grey"
+        android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/edit_add_email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -93,7 +94,8 @@
         android:textColor="@color/grey"
         app:layout_constraintBottom_toBottomOf="@+id/view2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        style="?android:attr/borderlessButtonStyle"/>
 
     <EditText
         android:id="@+id/edit_add_email"
@@ -107,6 +109,6 @@
         app:layout_constraintBottom_toTopOf="@+id/edit_add_password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:text="email" />
+        tools:text="   Email" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

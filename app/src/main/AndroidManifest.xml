@@ -6,6 +6,7 @@
 
     <application
         android:allowBackup="true"
+        android:fullBackupOnly="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -22,7 +23,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".FormLogin"
+            android:name=".UsandoRecycler"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".UsandoApi"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".MainPage"
             android:screenOrientation="portrait"
             android:exported="true" />
         <activity
@@ -31,6 +40,14 @@
             android:exported="true" />
         <activity
             android:name=".RecuperarSenha"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".FormProfile"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".FormLogin"
             android:screenOrientation="portrait"
             android:exported="true" />
         <activity

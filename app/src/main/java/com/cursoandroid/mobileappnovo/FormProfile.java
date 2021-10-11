@@ -55,8 +55,10 @@ public class FormProfile extends AppCompatActivity {
         if (user == null){
             finish();
         }else {
-            textEmailAddress.setText("Email: "+user.getEmail());
-            textId.setText("ID: "+user.getUid());
+            String showEmail = user.getEmail();
+            textEmailAddress.setText(getString(R.string.mostraEmail, showEmail));
+            //textEmailAddress.setText("Email: "+user.getEmail());
+            textId.setText("ID Usuário (gerada pelo Firebase): "+user.getUid());
         }
     }
 }

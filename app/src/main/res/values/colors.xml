@@ -18,4 +18,6 @@
     <color name="green_02">#0DE5A8</color>
     <color name="green_03">#7CF49A</color>
     <color name="grey">#838689</color>
+    <color name="red">#EF2A1B</color>
+    <color name="different">#d1eac6</color>
 </resources>

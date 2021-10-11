@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">MobileAppNovo</string>
+
     <string name="splasScreen">Splash_Screen</string>
     <string name="tela_de_login">Tela de Login</string>
     <string name="you_deserve_it">Você merece o melhor!</string>
@@ -11,8 +12,23 @@
     <string name="user">user_key</string>
     <string name="key_password">password_key</string>
     <string name="cadastro">Cadastar</string>
-    <string name="nome_completo">Nome Completo</string>
     <string name="email">Email</string>
     <string name="usuario">Usuário</string>
-    <string name="telefone">Telefone</string>
+    <string name="mostraEmail">Email: %1$s</string>
+
+    <string name="home_text">Home</string>
+    <string name="consumindoApi">API</string>
+    <string name="usandoRecyclerView">RV</string>
+    <string name="logout">Logout</string>
+    
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="api_text">api_text</string>
+    <string name="recycler_view_text">recycler_view</string>
+    <string name="consumir_api">Consumir API</string>
+    <string name="_2">2.</string>
+    <string name="consumindo_api">Consumindo API</string>
+    <string name="voltar">Voltar</string>
+    <string name="_1">1.</string>
+    <string name="_3">3.</string>
+
 </resources>

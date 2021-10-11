@@ -1,17 +1,14 @@
 package com.cursoandroid.mobileappnovo;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class FormRegister extends AppCompatActivity {
@@ -28,11 +25,9 @@ public class FormRegister extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_form_register);
 
-        auth = FirebaseAuth.getInstance();
-
         inicializaComponentes();
-        eventoVoltar();
         eventoCadastrar();
+        eventoVoltar();
     }
 
     private void inicializaComponentes() {
@@ -45,7 +40,7 @@ public class FormRegister extends AppCompatActivity {
     private void eventoCadastrar() {
         btn_registrar.setOnClickListener(view -> {
             String email = edit_add_email.getText().toString().trim();
-            String senha = edit_add_password.getEditableText().toString().trim();
+            String senha = edit_add_password.getText().toString().trim();
 
             criarUsuario(email, senha);
         });
@@ -65,7 +60,7 @@ public class FormRegister extends AppCompatActivity {
                     if (task.isSuccessful()){
                         alert("Usuário cadastrado com sucesso!");
 
-                        Intent intent = new Intent(FormRegister.this, FormProfile.class);
+                        Intent intent = new Intent(FormRegister.this, FormLogin.class);
                         startActivity(intent);
                         finish();
                     }else {

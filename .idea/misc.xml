@@ -8,16 +8,34 @@
         <entry key="..\:/ProjetosAndroid/DispositivosMoveis/MobileAppNovo/app/src/main/res/drawable/bg_edittext_normal.xml" value="0.38385416666666666" />
         <entry key="..\:/ProjetosAndroid/DispositivosMoveis/MobileAppNovo/app/src/main/res/drawable/ic_baseline_supervised_user_circle_24.xml" value="0.38385416666666666" />
         <entry key="..\:/ProjetosAndroid/DispositivosMoveis/MobileAppNovo/app/src/main/res/drawable/ic_baseline_vpn_key_24.xml" value="0.38385416666666666" />
+        <entry key="..\:/ProjetosAndroid/DispositivosMoveis/MobileAppNovo/app/src/main/res/drawable/ic_code.xml" value="0.38385416666666666" />
+        <entry key="..\:/ProjetosAndroid/DispositivosMoveis/MobileAppNovo/app/src/main/res/drawable/ic_exit_to_app.xml" value="0.38385416666666666" />
+        <entry key="..\:/ProjetosAndroid/DispositivosMoveis/MobileAppNovo/app/src/main/res/drawable/ic_home.xml" value="0.38385416666666666" />
         <entry key="..\:/ProjetosAndroid/DispositivosMoveis/MobileAppNovo/app/src/main/res/drawable/ic_launcher_background.xml" value="0.38385416666666666" />
+        <entry key="..\:/ProjetosAndroid/DispositivosMoveis/MobileAppNovo/app/src/main/res/drawable/ic_source.xml" value="0.38385416666666666" />
+        <entry key="..\:/ProjetosAndroid/DispositivosMoveis/MobileAppNovo/app/src/main/res/drawable/item_selector.xml" value="0.13333333333333333" />
         <entry key="..\:/ProjetosAndroid/DispositivosMoveis/MobileAppNovo/app/src/main/res/drawable/login_bg.xml" value="0.38385416666666666" />
+        <entry key="..\:/ProjetosAndroid/DispositivosMoveis/MobileAppNovo/app/src/main/res/drawable/mobile_navigation.xml" value="0.1712962962962963" />
+        <entry key="..\:/ProjetosAndroid/DispositivosMoveis/MobileAppNovo/app/src/main/res/drawable/round_corners.xml" value="0.13333333333333333" />
         <entry key="..\:/ProjetosAndroid/DispositivosMoveis/MobileAppNovo/app/src/main/res/drawable/splash_bg.xml" value="0.38385416666666666" />
+        <entry key="..\:/ProjetosAndroid/DispositivosMoveis/MobileAppNovo/app/src/main/res/layout/activity_api.xml" value="0.36770833333333336" />
         <entry key="..\:/ProjetosAndroid/DispositivosMoveis/MobileAppNovo/app/src/main/res/layout/activity_forgot_password.xml" value="0.33" />
         <entry key="..\:/ProjetosAndroid/DispositivosMoveis/MobileAppNovo/app/src/main/res/layout/activity_form_forgot_password.xml" value="0.36770833333333336" />
         <entry key="..\:/ProjetosAndroid/DispositivosMoveis/MobileAppNovo/app/src/main/res/layout/activity_form_login.xml" value="0.33" />
         <entry key="..\:/ProjetosAndroid/DispositivosMoveis/MobileAppNovo/app/src/main/res/layout/activity_form_register.xml" value="0.36770833333333336" />
         <entry key="..\:/ProjetosAndroid/DispositivosMoveis/MobileAppNovo/app/src/main/res/layout/activity_main.xml" value="0.3541666666666667" />
+        <entry key="..\:/ProjetosAndroid/DispositivosMoveis/MobileAppNovo/app/src/main/res/layout/activity_page1.xml" value="0.33" />
         <entry key="..\:/ProjetosAndroid/DispositivosMoveis/MobileAppNovo/app/src/main/res/layout/activity_profile.xml" value="0.36770833333333336" />
+        <entry key="..\:/ProjetosAndroid/DispositivosMoveis/MobileAppNovo/app/src/main/res/layout/activity_recycler.xml" value="0.36770833333333336" />
         <entry key="..\:/ProjetosAndroid/DispositivosMoveis/MobileAppNovo/app/src/main/res/layout/activity_splash_screen.xml" value="0.36770833333333336" />
+        <entry key="..\:/ProjetosAndroid/DispositivosMoveis/MobileAppNovo/app/src/main/res/layout/app_bar_layout.xml" value="0.22" />
+        <entry key="..\:/ProjetosAndroid/DispositivosMoveis/MobileAppNovo/app/src/main/res/layout/fragment_a_p_i.xml" value="0.1" />
+        <entry key="..\:/ProjetosAndroid/DispositivosMoveis/MobileAppNovo/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/ProjetosAndroid/DispositivosMoveis/MobileAppNovo/app/src/main/res/layout/fragment_recycler.xml" value="0.17222222222222222" />
+        <entry key="..\:/ProjetosAndroid/DispositivosMoveis/MobileAppNovo/app/src/main/res/layout/round_corner.xml" value="0.1" />
+        <entry key="..\:/ProjetosAndroid/DispositivosMoveis/MobileAppNovo/app/src/main/res/menu/app_bar.xml" value="0.33" />
+        <entry key="..\:/ProjetosAndroid/DispositivosMoveis/MobileAppNovo/app/src/main/res/menu/drawer_menu.xml" value="0.33" />
+        <entry key="..\:/ProjetosAndroid/DispositivosMoveis/MobileAppNovo/app/src/main/res/menu/item_menu.xml" value="0.1" />
       </map>
     </option>
   </component>
@@ -30,7 +48,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.33" />
+        <option name="scale" value="0.22" />
       </ProjectState>
     </option>
   </component>
